@@ -17,3 +17,5 @@ As yet I don't know enough about regular expressions to parse the data into a fo
 + What percent of businesses are headquartered in Arizona versus another state?  Both *service address* and *mailing address* are captured in the data.  My guess is that mailing address reflects the headquarters or parent company or a subsidiary or franchise that may be doing business in Scottsdale.
 
 + Businesses with addresses in commercial office/business areas versus private residences.  A number of businesses have *Apt* addresses that make me think someone has a business and is working out of their house.  There could be other cues in the data to identify these types of businesses.  Are these sorts of business distributed evenly throughout the full business license listing, or are they weighted towards more recent Scottsdale history(wich would fit with the gig economy becomming more prevelent)?
+
++ Has the structure of business names changed over time?  For instance, businesses that include the proprietor's name, business names that include acronmys, ect.
