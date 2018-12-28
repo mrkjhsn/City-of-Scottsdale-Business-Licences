@@ -15,3 +15,4 @@ for row in inputfile:
         bus_info_raw = row[(re.search(r'[,]\d{2,7}[,]', row).start()):] #pulls everything after the business name into a string
         bus_info_clean = re.sub(r',','|',bus_info_raw) #does a find/replace to remove all commas from business info string and replace them with bar character
         output_data.write(bus_name+bus_info_clean) #write cleaned data to txt file
+output_data.close()
