@@ -5,10 +5,10 @@ The City of Scottsdale publishes a [dataset](http://data.scottsdaleaz.gov/datase
 BusinessName,LicenseNumber,LicenseType,ServiceStreet,ServiceStreet2,ServiceUnitType,ServiceUnit,ServiceCity,ServiceCounty,ServiceState,ServiceZip,ServiceCountry,IssuedDate,MailingStreet,MailingStreet2,MailingUnitType,MailingUnit,MailingCity,MailingCounty,MailingState,MailingZip,MailingCountry
 
 
-#### Before I Can Analyze This Dataset:
-The data was exported in CSV format.  This is problematic since many business names include a *comma* as part of the name.  For instance - ABCD, LLC.  As a result, when I import into SQL, a number of business names have been shifted into the LicenseNumber column.  And in some cases several columns to the right into the LicenseType and ServiceStreet columns.
+ #### ~~Before I Can Analyze This Dataset:~~
+~~The data was exported in CSV format.  This is problematic since many business names include a *comma* as part of the name.  For instance - ABCD, LLC.  As a result, when I import into SQL, a number of business names have been shifted into the LicenseNumber column.  And in some cases several columns to the right into the LicenseType and ServiceStreet columns.~~
 
-As yet I don't know enough about regular expressions to parse the data into a format that will allow me to import it into SQL to perform analysis.  However I believe regular expressions could do that job.  A pattern exists.  LicenseNumber is an integer, the smallest of which is 27, the largest of which is over 1 million.  If a regular expression can find (,2x[0-9]) then work back from this to the beginning of the line this should be able to catch virtually all business names properly. 
+ ~~As yet I don't know enough about regular expressions to parse the data into a format that will allow me to import it into SQL to perform analysis.  However I believe regular expressions could do that job.  A pattern exists.  LicenseNumber is an integer, the smallest of which is 27, the largest of which is over 1 million.  If a regular expression can find (,2x[0-9]) then work back from this to the beginning of the line this should be able to catch virtually all business names properly.~~
 
 #### To Investigate:
 
