@@ -12,7 +12,7 @@ BusinessName,LicenseNumber,LicenseType,ServiceStreet,ServiceStreet2,ServiceUnitT
 
 #### To Investigate:
 
-+ The dataset doesn't include the date the business first filed for a license.  However the numbering appears to be chronological, with the smallest business number(27) belonging to *A-Accent Plumbing*, which claims to have been started in 1963 according to its [website](https://a-accentplumbing.com/contact-us/).  It would be interesting to analyze the makeup of the oldest one thousand businesses to get a sense for what types of businesses they are.  Are there any particular reasons for their longevity?
++ The dataset doesn't include the date the business first filed for a license.  ~~However the numbering appears to be chronological~~,(not true, a simple graph shows huge spikes. Although business licenses may have started by being sequential, this has not been consistent throughout the history of Scottsdale) with the smallest business number(27) belonging to *A-Accent Plumbing*, which claims to have been started in 1963 according to its [website](https://a-accentplumbing.com/contact-us/).  It would be interesting to analyze the makeup of the oldest one thousand businesses to get a sense for what types of businesses they are.  Are there any particular reasons for their longevity?
 
 + What percent of businesses are headquartered in Arizona versus another state?  Both *service address* and *mailing address* are captured in the data.  My guess is that mailing address reflects the headquarters or parent company of a subsidiary or franchise that may be doing business in Scottsdale.
 
