@@ -1,8 +1,14 @@
 ### City of Scottsdale Business Licences
 
-The City of Scottsdale publishes a [dataset](http://data.scottsdaleaz.gov/dataset/business-licenses) of all businesses(approximately 25K) who are currently licensed to operate in Scottsdale.  The data is provided in the below format:
+The City of Scottsdale publishes a [dataset](http://data.scottsdaleaz.gov/dataset/business-licenses) of all businesses(approximately 25K) who are currently licensed to operate in Scottsdale.  The data is provided as a csv file with the below attributes:
 
-BusinessName,LicenseNumber,LicenseType,ServiceStreet,ServiceStreet2,ServiceUnitType,ServiceUnit,ServiceCity,ServiceCounty,ServiceState,ServiceZip,ServiceCountry,IssuedDate,MailingStreet,MailingStreet2,MailingUnitType,MailingUnit,MailingCity,MailingCounty,MailingState,MailingZip,MailingCountry
++ BusinessName,LicenseNumber,LicenseType,
+
++ ServiceStreet,ServiceStreet2,ServiceUnitType,ServiceUnit,ServiceCity,ServiceCounty,ServiceState,ServiceZip,ServiceCountry,
+
++ IssuedDate,
+
++ MailingStreet,MailingStreet2,MailingUnitType,MailingUnit,MailingCity,MailingCounty,MailingState,MailingZip,MailingCountry
 
 
  #### ~~Before I Can Analyze This Dataset:~~
