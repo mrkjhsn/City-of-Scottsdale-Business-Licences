@@ -25,3 +25,5 @@ The City of Scottsdale publishes a [dataset](http://data.scottsdaleaz.gov/datase
 + Businesses with addresses in commercial office/business areas versus private residences.  A number of businesses have *Apt* addresses that make me think someone is working out of their house.  There could be other cues in the data to identify these types of businesses.  Are these sorts of business distributed evenly throughout the full business license listing, or are they weighted towards more recent Scottsdale history(wich would fit with the gig economy and contract work becomming more prevelent)?
 
 + Has the structure of business names changed over time?  For instance, businesses that include the proprietor's name, business names that include acronmys, ect.  Use NLTK library to dig into the syntax of business names.
+
++ A number of businesses with a physical presence are associated with a simliar *.com* namesake.  For instance Walmart.com and Target.com.  My guess is that these are businesses associated with the online sales associated with the parrent company.  Are the locations of these *.com* businesses within the Business License Dataset indicative of anything?
