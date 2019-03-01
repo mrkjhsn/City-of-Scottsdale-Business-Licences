@@ -3,7 +3,7 @@ import re
 first_row = True #assign first_row as boolean
 
 with open('ct_BusinessLicences.csv','r') as input_file: #read from this file
-    with open("BusinessLicenses_cleaned.txt","w") as output_file: #write into this file
+    with open('BusinessLicenses_cleaned.txt','w') as output_file: #write into this file
         for row in input_file: #step through each row of csv file
             if first_row: #handle first row different since it doesn't have business numbers
                 headers = re.sub(r',','|',row) 
